@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-cadastro{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(purple, black);
+    display: flex;
+    
+    
+}
+
+.left-cadastro{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.right-cadastro{
+    margin-left: 400px;
+    margin-top: 400px;
+}
+.cadastro{
+    background-color: rgba(185, 24, 166, 0.539);
+    height: 30vh;
+    width: 20vw;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+.submit{
+    margin-left: 20px;
+    padding: 10px;
+    width: 130px;
+    border-radius: 30px;
+}
+.cadastro>input{
+    padding: 15px;
+    border-radius: 30px;
+}
+.card-cadastro>label{
+    color: #fff;
+}

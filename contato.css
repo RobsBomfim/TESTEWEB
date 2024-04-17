@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(purple, black);
+    display: flex;
+    
+    
+}
+
+.left-page{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.right-page{
+    margin-left: 400px;
+    margin-top: 400px;
+}
+.card-contato{
+    background-color: rgba(92, 16, 83, 0.539);
+    height: 30vh;
+    width: 20vw;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-right: 150px;
+}
+.submit{
+    margin-left: 20px;
+    padding: 20px;
+    width: 100px;
+    border-radius: 30px;
+}
+.card-contato>input{
+    padding: 15px;
+    border-radius: 30px;
+}
+.card-contato>label{
+    color: #fff;
+}
+.card-page{
+    color: #fff;
+}

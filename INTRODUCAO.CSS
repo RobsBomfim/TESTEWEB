@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(purple, black);
+    display: flex;
+    
+    
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav>ul{
+    color: #fff;
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+.nav>ul li a{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.left-login{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.right-login{
+    margin-left: 400px;
+    margin-top: 400px;
+}
+.card-login{
+    background-color: rgba(92, 16, 83, 0.539);
+    height: 30vh;
+    width: 20vw;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+.submit{
+    margin-left: 20px;
+    padding: 20px;
+    width: 100px;
+    border-radius: 30px;
+}
+.card-login>input{
+    padding: 15px;
+    border-radius: 30px;
+}
+.card-login>label{
+    color: #fff;
+}
+.nav>li{
+    padding: 0 40px;
+}
+
